@@ -1,0 +1,12 @@
+{
+    "type": "service_account",
+    "project_id": "fablo-money",
+    "private_key_id": "5ddc78cbc64530bb3c66267dbc473924f5b00544",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCraR3xwuADx8HL\nZx2rwLUZi+ywhiBz7HJTuDcXfIMILbGYVrIms23qz9Ji64yVKW9s1iZdrL3Gt7Lu\nH/Ty7i+itckErALvZtHeXCN4or9X0yAfChOMNpocivmgVcDHA94KHbDxyJ8I7+SS\nXIuyF3pHTo0HB2P+yJJTCUfdTL6wqDA4O3seKdYGo8NvEUVced0BgETTTwxIKT9/\nZfgfYjOc8wNuIXI1qVfOzrlOm1Vm88/7wS2fnPPnhY1fs5cxQsPO/AaGhGz6t7M9\nNQ/iktKlunCoENBdf3T3m432962GT5wRlwzxrcO+4scCRRNsj4bHb8VmhppLF+ln\n4LMQnj+lAgMBAAECggEABqwqXr67yASO04iu5oCIwYxUCTvHZ/Z/LX7LzOMWGguR\nUMFQi7d2DWshS6QouPu/xdMA86o69FEyqsNdXoGNeCjZwOVN80d43vjjkUQgl7N1\nGiWNxOpb4xrj2cJ3en0jjRhCdZReNdOvfaUS87qnPL8JjV7+clduHsO14575A1kQ\nZ0pu7ATUPoTMwuQV5rswwFMTILMZg6jz4v86FPrnvCLxjilLgeIvo61vDZQz/0Zp\nDgnL4iqrKfwGqS9TJEZZq1qhkqzTWyZKknNUgUGA+eTPljrrdwinzleJEsSCwdfE\nWUZAFvEe3ya3Gqzsm+cgJY0LCzi+vtPnk/iZqbyAhwKBgQDcDygk71C7c+RZ+HZO\ne+5r+W0ucAniVmH/go+PK6ICevpn62PPlsd+btWhFT0TGPC9RM0Fu6x7VohgGDvp\nv3aCfAEEW3ltG1L4b98yZ9m4pkuyuVdIDYaANrKK1cP+OCGy26RKibNQRaxyFBVU\n1QIyNQ41VMwReFXbdVwnupRSYwKBgQDHZ+zmQGZy04iT/a/Om0Ncec0ROdIyHQOe\nyVTwTGhvLQqd+bMU+xB1KM8GwzfechiDm/4Dq0nlflsNjHC0QhE7aqpe8OLB7ZPj\nDNS5WJq9gWtILA1nAIlNsaxpXmvgTkb6cwyYcTBn6AkzU0yZVKobqGNXv5mGG0sW\nNHX2waTAVwKBgDLIfKcpYyQfNo9cu1CZYQgh44RX7rAA51SjuKV9mEGiR687ryj0\nzszqnvoxgIqrssK64eV0zfUYnxgt/4WN3bd3DnUG9xqqt5cFmihzttbZ6ZYxF2dV\nV7i25rULZ9N++Kfh8CQTawIXUhhxcgrFrWAQxlqgWwedEZM3njC86gWpAoGAQUMB\nJKaFISWcOJs5k8v68uQmOnILGj2mtqw78V2AfIpoRCW5967nxwBxKUxxF4uN/Fzs\neLTxvXtqP3fsVwKccy7IzcPW4xNnaFMFuBeIpWca/ob0Z/aj+VqiC+ZMNiBIWKWY\nxLee2RL3F+Y2VqR//AdTZB+gFmUOYRkQVo8v5YcCgYAoAcLwRUX4+5uJVG2SfwOb\nJCLr24+3gnm59xu2RnuFTqJM+mPiVgwIWguOyZH7sS17uXi/CeZ9+xYjHQe/mkDX\nHx/WjoT++y/wDcHaVtsE1i3ivtYuvmOj1eAT5vMnJCoGnU2PVf7onLQIm8/HLp54\nDqLV7baupuEyRJem+MLVYg==\n-----END PRIVATE KEY-----\n",
+    "client_email": "firebase-adminsdk-4mqcb@fablo-money.iam.gserviceaccount.com",
+    "client_id": "106424086642736783242",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-4mqcb%40fablo-money.iam.gserviceaccount.com"
+}
