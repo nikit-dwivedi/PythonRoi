@@ -7,7 +7,7 @@ app = Flask(__name__)
 def wel():
     return welcome()
 
-@app.route('/test/', methods=['POST'])
+@app.route('/test/', methods=['get'])
 def welTest():
     return "working"
 
