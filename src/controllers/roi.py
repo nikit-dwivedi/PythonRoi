@@ -1,6 +1,7 @@
 from firebase_admin import firestore
 from flask import request
 from ..config.fb import initDb
+from .miningRoi import DailyRoi
 
 
 authString = '11aab4ed5a28f5c6c4f44af7d1249b686737f16bae499f351162ffedb7e2d093'
@@ -71,13 +72,9 @@ def getAndUpdateWalletBalance(user_id, interestDaily):
         print(e)
 
 
-# def getAndUpdateWalletBalance(user_id, interestDaily):
-#     balRef = initDb.collection('BALANCE').document(user_id)
-#     try:
-#         balDoc = balRef.get()
-#         print("balDoc",balDoc)
-#         print("data",balDoc.to_dict())
-#         print("_____________________________________________________________done_____________________________________________________________")
-
-#     except Exception as e:
-#         print(e)
+def marvelousRoi():
+    data = request.json
+    if data["auth"] == authString:
+        return DailyRoi()
+    else:
+        return "unauthorized"
