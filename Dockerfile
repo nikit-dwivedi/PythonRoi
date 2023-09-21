@@ -8,7 +8,7 @@ WORKDIR /home/python/app
 COPY app /home/python/app
 
 # Install any needed packages or dependencies (e.g., requirements.txt)
-COPY requirements.txt /home/python/app/
+COPY app/requirements.txt /home/python/app/
 RUN pip install --no-cache-dir -r /home/python/app/requirements.txt
 
 # Define the command to run your Python application
