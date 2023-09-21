@@ -1,0 +1,56 @@
+version: '3'
+
+services:
+  lb:
+    image: haproxy
+    ports:
+      - "8089:8080"
+    restart: always
+    networks:
+      roi:
+        ipv4_address: 172.27.0.2 # Assign a static IP address to the lb service
+    volumes:
+      - ./haproxy:/usr/local/etc/haproxy
+
+  roiservice1:
+    image: roiservice
+    environment:
+      - APPID=1111
+    restart: always
+    networks:
+      roi:
+        ipv4_address: 172.27.0.3 # Assign a static IP address to roiservice1
+
+  roiservice2:
+    image: roiservice
+    environment:
+      - APPID=2222
+    restart: always
+    networks:
+      roi:
+        ipv4_address: 172.27.0.4 # Assign a static IP address to roiservice2
+
+  roiservice3:
+    image: roiservice
+    environment:
+      - APPID=3333
+    restart: always
+    networks:
+      roi:
+        ipv4_address: 172.27.0.5 # Assign a static IP address to roiservice3
+
+  roiservice4:
+    image: roiservice
+    environment:
+      - APPID=4444
+    restart: always
+    networks:
+      roi:
+        ipv4_address: 172.27.0.6 # Assign a static IP address to roiservice4
+
+networks:
+  roi:
+    ipam:
+      driver: default
+      config:
+        - subnet: 172.27.0.0/16 # Define a subnet for your macvlan network
