@@ -1,10 +1,10 @@
 from pymongo import MongoClient
 
 # Connect to the MongoDB database
-client = MongoClient("mongodb+srv://marvellous:HeFz9akJ9FtSLxD0@cluster0.0daozri.mongodb.net")
+client = MongoClient("")
 
 # Select the database
-db = client["Marvellous"]
+db = client[""]
 
 # Select the collection
 
